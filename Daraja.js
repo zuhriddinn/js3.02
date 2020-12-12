@@ -1,17 +1,17 @@
-var son = + prompt('Son kiriting' )
+let son = + prompt('Son kiriting')
 
-var daraja = + prompt('Darajasini Kiriting' )
+let daraja = + prompt('Darajasini Kiriting')
 
-var javob
+let son2
 
 if (daraja == 0) {
-    alert(javob + 'ni darajasi 0 ga teng bolishi mumkin emas')
-} else if (daraja < 0) {
+    alert(son2 + 'ni darajasi 0 ga teng bolishi mumkin emas')
+} else if (son <= 0) {
     alert('Bunday son kiritib bolmaydi')
 } else {
-    for (javob = son ; daraja > 1 ; daraja--) {
-        javob = javob * son
-        
+    for (son2 = son; daraja > 1; daraja--) {
+        son2 = son2 * son
+
     }
-    alert(javob)
+    alert(son2)
 }
